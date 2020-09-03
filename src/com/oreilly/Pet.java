@@ -4,8 +4,12 @@ public class Pet {
 
     private final String name;
 
-    public Pet(String name) {
+    protected Pet(String name) {
         this.name = name;
+    }
+
+    public static Pet make(String name){
+        return new Pet(name);
     }
 
     public void feed(){
