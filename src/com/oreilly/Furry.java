@@ -1,4 +1,6 @@
 package com.oreilly;
 
-public class Furry {
+public interface Furry {
+
+    void groom();
 }
